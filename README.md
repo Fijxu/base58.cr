@@ -9,10 +9,10 @@
    
  Better performance than [valenciaj/crystal-base58](https://github.com/valenciaj/crystal-base58), thanks a lot for the discussion in the [forum](https://forum.crystal-lang.org/t/is-this-a-good-way-to-generate-a-random-string/6986)
  
-```
-Random.base58(base58.cr)        33.17M ( 30.15ns) (± 3.27%)  32.0B/op        fastest
-Base58.random(crystal-base58)   3.52M (284.24ns) (± 3.82%)   401B/op   9.43× slower
-```
+| shard name | usage | result | score |
+| -  | - | - | - |
+|base58.cr | Random.base58() |  33.17M ( 30.15ns) (± 3.27%)  32.0B/op | fastest
+| crystal-base58 | Base58.random() |  3.52M (284.24ns) (± 3.82%)   401B/op | 9.43× slower
 
 ## How to use it.
 
